@@ -1,9 +1,10 @@
-name: DirectAuction
-author: SemTeul
+name: AuctionHouse
+author: VMPE Development Team
 main: semteul\directauction\DirectAuction
 api: [3.0.0-ALPHA11, 3.0.0-ALPHA12]
-version: "0.3"
+version: "1.0-BETA"
 permissions:
-  directauction:
-    description: "DirectAuction command"
+  auctionhouse:
+    description: "Auction house command"
+    aliases: ["ah"]
     default: true
